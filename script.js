@@ -141,7 +141,7 @@ const a = [];
 
 Array.prototype.myJoin = function (prop = ",") {
   if (this.length == 0) {
-    return '""';
+    return '';
   }
   let newStr = this[0];
 
